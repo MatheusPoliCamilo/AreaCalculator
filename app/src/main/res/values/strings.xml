@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AreaCalculator</string>
+    <string name="selecione_a_forma">Selecione a forma:</string>
+    <string name="quadrado">Quadrado</string>
+    <string name="tri_ngulo">Triângulo</string>
+    <string name="circulo">Círculo</string>
+    <string name="avancar">Avançar</string>
+</resources>
