@@ -19,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Circle"></activity>
+        <activity android:name=".Triangle"></activity>
+        <activity android:name=".Square"></activity>
     </application>
 
 </manifest>

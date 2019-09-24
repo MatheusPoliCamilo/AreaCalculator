@@ -5,4 +5,7 @@
     <string name="tri_ngulo">Triângulo</string>
     <string name="circulo">Círculo</string>
     <string name="avancar">Avançar</string>
+    <string name="circle">Informe os dados do círculo:</string>
+    <string name="triangle">Informe os dados do triângulo:</string>
+    <string name="square">Informe os dados do quadrado:</string>
 </resources>
