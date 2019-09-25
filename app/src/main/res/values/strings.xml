@@ -11,4 +11,8 @@
     <string name="raio">Raio</string>
     <string name="base">Base</string>
     <string name="altura">Altura</string>
+    <string name="imagem_do_triangulo">Imagem do triângulo</string>
+    <string name="area">Área:</string>
+    <string name="imagem_do_quadrado">Imagem do quadrado</string>
+    <string name="imagem_do_circulo">Imagem do círculo</string>
 </resources>
