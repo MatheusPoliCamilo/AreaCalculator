@@ -8,4 +8,7 @@
     <string name="circle">Informe os dados do círculo:</string>
     <string name="triangle">Informe os dados do triângulo:</string>
     <string name="square">Informe os dados do quadrado:</string>
+    <string name="raio">Raio</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
 </resources>
