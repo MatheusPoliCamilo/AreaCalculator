@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Square">
+    tools:context=".Rectangle">
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/square"
+        android:text="@string/rectangle"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:labelFor="@id/squareBase"
+        android:labelFor="@id/rectangleBase"
         android:text="@string/base"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.332" />
 
     <EditText
-        android:id="@+id/squareBase"
+        android:id="@+id/rectangleBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -49,7 +49,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:labelFor="@id/squareHeight"
+        android:labelFor="@id/rectangleHeight"
         android:text="@string/altura"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.451" />
 
     <EditText
-        android:id="@+id/squareHeight"
+        android:id="@+id/rectangleHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

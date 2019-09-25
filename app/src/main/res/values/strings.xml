@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">AreaCalculator</string>
     <string name="selecione_a_forma">Selecione a forma:</string>
-    <string name="quadrado">Quadrado</string>
+    <string name="retangulo">Retângulo</string>
     <string name="tri_ngulo">Triângulo</string>
     <string name="circulo">Círculo</string>
     <string name="avancar">Avançar</string>
     <string name="circle">Informe os dados do círculo:</string>
     <string name="triangle">Informe os dados do triângulo:</string>
-    <string name="square">Informe os dados do quadrado:</string>
+    <string name="rectangle">Informe os dados do retângulo:</string>
     <string name="raio">Raio</string>
     <string name="base">Base</string>
     <string name="altura">Altura</string>
     <string name="imagem_do_triangulo">Imagem do triângulo</string>
     <string name="area">Área:</string>
-    <string name="imagem_do_quadrado">Imagem do quadrado</string>
+    <string name="imagem_do_retangulo">Imagem do retângulo</string>
     <string name="imagem_do_circulo">Imagem do círculo</string>
 </resources>

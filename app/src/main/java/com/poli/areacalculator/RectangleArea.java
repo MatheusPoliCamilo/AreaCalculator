@@ -4,18 +4,18 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class SquareArea extends Activity {
+public class RectangleArea extends Activity {
 
-    TextView squareArea;
+    TextView rectangleArea;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.square_area);
-        squareArea = findViewById(R.id.squareArea);
+        setContentView(R.layout.rectangle_area);
+        rectangleArea = findViewById(R.id.rectangleArea);
 
         int area = this.getIntent().getIntExtra("area", 0);
-        squareArea.setText(area + " m2");
+        rectangleArea.setText(area + " m2");
     }
 
 }

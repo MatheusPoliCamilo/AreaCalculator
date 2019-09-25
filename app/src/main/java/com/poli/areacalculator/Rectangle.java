@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Square extends Activity {
+public class Rectangle extends Activity {
 
     Button btnNext;
     Intent intent;
@@ -15,7 +15,7 @@ public class Square extends Activity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.square);
+        setContentView(R.layout.rectangle);
 
         btnNext = findViewById(R.id.button3);
         btnNext.setOnClickListener(btnNextClick);
@@ -23,14 +23,14 @@ public class Square extends Activity {
 
     private View.OnClickListener btnNextClick = new View.OnClickListener() {
         public void onClick(View view) {
-            intent = new Intent(Square.this, SquareArea.class);
+            intent = new Intent(Rectangle.this, RectangleArea.class);
 
-            etBase = findViewById(R.id.squareBase);
-            etHeight = findViewById(R.id.squareHeight);
+            etBase = findViewById(R.id.rectangleBase);
+            etHeight = findViewById(R.id.rectangleHeight);
 
             int base = Integer.parseInt(etBase.getText().toString());
             int height = Integer.parseInt(etHeight.getText().toString());
-            int area = (base * height) / 2;
+            int area = (base * height);
 
             intent.putExtra("area", area);
 

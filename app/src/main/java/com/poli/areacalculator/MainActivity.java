@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
                   intent = new Intent(MainActivity.this, Triangle.class);
                   startActivity(intent);
                   break;
-              case("Quadrado"):
-                  intent = new Intent(MainActivity.this, Square.class);
+              case("Retângulo"):
+                  intent = new Intent(MainActivity.this, Rectangle.class);
                   startActivity(intent);
                   break;
               case("Círculo"):
