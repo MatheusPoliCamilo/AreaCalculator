@@ -22,6 +22,9 @@
         <activity android:name=".Circle"></activity>
         <activity android:name=".Triangle"></activity>
         <activity android:name=".Square"></activity>
+        <activity android:name=".CircleArea"></activity>
+        <activity android:name=".SquareArea"></activity>
+        <activity android:name=".TriangleArea"></activity>
     </application>
 
 </manifest>

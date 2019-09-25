@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.view.View.OnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     RadioButton radioButton;
     Button btnNext;
     Intent intent;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnNext.setOnClickListener(btnNextClick);
     }
 
-    private OnClickListener btnNextClick = new OnClickListener() {
+    private View.OnClickListener btnNextClick = new View.OnClickListener() {
       public void onClick(View v) {
           int radioId = radioGroup.getCheckedRadioButtonId();
           radioButton = findViewById(radioId);
